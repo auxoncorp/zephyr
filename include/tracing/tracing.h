@@ -1922,6 +1922,8 @@
 
 #if defined CONFIG_PERCEPIO_TRACERECORDER
 #include "tracing_tracerecorder.h"
+#elif defined CONFIG_TRACING_EXTERNAL
+#include "tracing_external.h"
 #else
 /**
  * @brief Tracing APIs
